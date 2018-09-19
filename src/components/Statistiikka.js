@@ -35,7 +35,7 @@ const Statistiikka = (props) => {
                     </tr>
                     <tr>
                         <td>keskiarvo</td>
-                        <td>{Number.parseFloat(average).toFixed(1)}</td>
+                        <td>{Number.parseFloat(average).toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>positiivisia</td>
